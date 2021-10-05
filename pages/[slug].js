@@ -9,7 +9,6 @@ export default function slug(pizza, otherPizzas) {
             <Head>
                 <title>{pizza.pizza.name}</title>
             </Head>
-            {console.log(pizza.pizza)}
             <div className={styles.pizzaWrapperLeft}>
                 <img src={pizza.pizza.image} alt={pizza.pizza.name} className={styles.pizzaImage} />
             </div>
